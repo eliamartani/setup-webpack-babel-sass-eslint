@@ -1,0 +1,15 @@
+button {
+  &.home {
+    background-color: transparent;
+    background-image: url('../img/dev.png');
+    border: 0;
+    border-radius: 20px;
+    height: 128px;
+    transition: background-color .2s linear;
+    width: 128px;
+
+    &:hover {
+      background-color: $gray;
+    }
+  }
+}
